@@ -41,6 +41,7 @@ body{
     background-color: #11b7d8;
     justify-content: center;
     font-size: 30px; 
+    user-select:none;
 }
 
 .button{
@@ -53,17 +54,20 @@ body{
 
 .expression{
     font-size: small;
+    height: 16.73px;
 }
 .result{
-    font-size: larger;
+    font-size: larger; 
+    height: 43.27px;
 }
 
 .display{
     background-color: rgb(231, 223, 223);
     grid-column: span 4;
-    flex-direction: column;
+    display: block;
     align-items: flex-end;
-    padding: 0px 20px;
+    text-align: end;
+    padding: 10px 20px;
 }
 .clear{
     grid-column: span 2;
